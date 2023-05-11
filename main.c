@@ -1,21 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/cpplite/CTemplate.c to edit this template
+ */
+
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-    int numbers[5];
-    int i;
-    int sum = 0;
+int main(int argc, char** argv)
+{
+    printf("Hello World");
 
-    printf("Enter five numbers:\n");
-
-    for (i = 0; i < 5; i++) {
-        scanf("%d", &numbers[i]);
-
-        if (numbers[i] > 0) {
-            sum += numbers[i];
-        }
-    }
-
-    printf("Sum of positive numbers: %d\n", sum);
-
-    return 0;
+    return (EXIT_SUCCESS);
 }
